@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11822.322 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FeralHeart", "game.vcxproj", "{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}"
 EndProject
@@ -17,15 +17,20 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Debug|Win32.ActiveCfg = XDebug|Win32
 		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Debug|Win32.Build.0 = XDebug|Win32
-		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Debug|x64.ActiveCfg = XDebug|Win32
+		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Debug|x64.ActiveCfg = XDebug|x64
+		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Debug|x64.Build.0 = XDebug|x64
 		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Release|Win32.ActiveCfg = Release|Win32
 		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Release|Win32.Build.0 = Release|Win32
-		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Release|x64.ActiveCfg = Release|Win32
+		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Release|x64.ActiveCfg = Release|x64
+		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.Release|x64.Build.0 = Release|x64
 		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.XDebug|Win32.ActiveCfg = XDebug|Win32
 		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.XDebug|Win32.Build.0 = XDebug|Win32
 		{A65DDD92-FF20-4B1F-AE83-CD71FD4ECCC8}.XDebug|x64.ActiveCfg = XDebug|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB8E5B40-DCE8-4DDC-B3DC-46B05B91DF23}
 	EndGlobalSection
 EndGlobal
