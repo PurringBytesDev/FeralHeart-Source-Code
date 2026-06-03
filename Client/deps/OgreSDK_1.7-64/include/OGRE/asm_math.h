@@ -179,8 +179,8 @@ float asm_rsq( float r )
     } // returns r0
 
 #else
-
-	return 1. / sqrt( r );
+    // C4244
+	return (float)(1. / sqrt(r));
 
 #endif
 }
@@ -209,8 +209,8 @@ float apx_rsq( float r ) {
     } // returns r0
 
 #else
-
-	return 1. / sqrt( r );
+    // C4244
+	return (float)(1. / sqrt(r));
 
 #endif
 }
